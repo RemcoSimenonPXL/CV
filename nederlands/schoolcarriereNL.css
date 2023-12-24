@@ -75,15 +75,18 @@ footer {
     background-color: #6a994E;
     color: white;
 }
-footer button{
+
+footer button {
     text-decoration: none;
     color: white;
     background-color: #bc4749;
 }
-footer button a{
+
+footer button a {
     text-decoration: none;
     color: white;
 }
+
 footer #rechts {
     margin-left: auto;
     margin-right: 10px;
@@ -168,6 +171,11 @@ img {
 @media screen and (max-width: 480px) {
     ul.topnav li {
         float: none;
+    }
+
+    .flip-box, .flip-box-front,
+    .flip-box-back {
+        width: 465px;
     }
 
     .dropdown-content {

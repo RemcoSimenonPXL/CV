@@ -2,10 +2,10 @@ body {
     background-color: #F2E8CF;
     margin: 0;
     min-height: 100vh;
+    min-width: 480px;
     position: relative;
 }
-
-/*De navbar*/ul.topnav {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,7 +60,9 @@ ul.topnav li a.active {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.vervanger{
+    display: none;
+}
 #center {
     text-align: center;
 }
@@ -140,5 +142,11 @@ footer #links {
     ul.topnav li {float: none;}
     .dropdown-content {
         min-width: 100%
+    }
+    #ervaring{
+        display: none;
+    }
+    .vervanger{
+        display: block;
     }
   }

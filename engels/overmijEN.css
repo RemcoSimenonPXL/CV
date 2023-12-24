@@ -5,7 +5,7 @@ body {
     position: relative;
 }
 
-/*De navbar*/ul.topnav {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -138,7 +138,7 @@ footer {
     padding: 3px;
     background-color: #6a994E;
     color: white;
-    
+
 }
 footer button{
     text-decoration: none;
@@ -159,9 +159,20 @@ footer #links {
     margin-left: 10px;
     margin-right: auto;
 }
+
 @media screen and (max-width: 480px) {
-    ul.topnav li {float: none;}
+    ul.topnav li {
+        float: none;
+    }
+
     .dropdown-content {
         min-width: 100%
     }
-  }
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+}
